@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025AC675290DD2130092E366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC674290DD2130092E366 /* AppDelegate.swift */; };
+		025AC677290DD2130092E366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC676290DD2130092E366 /* SceneDelegate.swift */; };
+		025AC679290DD2130092E366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC678290DD2130092E366 /* ViewController.swift */; };
+		025AC67C290DD2130092E366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025AC67A290DD2130092E366 /* Main.storyboard */; };
+		025AC67F290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 025AC67D290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld */; };
+		025AC681290DD2160092E366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025AC680290DD2160092E366 /* Assets.xcassets */; };
+		025AC684290DD2160092E366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025AC682290DD2160092E366 /* LaunchScreen.storyboard */; };
+		025AC68F290DD2160092E366 /* ShuweiGan_Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC68E290DD2160092E366 /* ShuweiGan_Lab4Tests.swift */; };
+		025AC699290DD2160092E366 /* ShuweiGan_Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC698290DD2160092E366 /* ShuweiGan_Lab4UITests.swift */; };
+		025AC69B290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC69A290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025AC68B290DD2160092E366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025AC669290DD2130092E366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025AC670290DD2130092E366;
+			remoteInfo = "ShuweiGan-Lab4";
+		};
+		025AC695290DD2160092E366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025AC669290DD2130092E366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025AC670290DD2130092E366;
+			remoteInfo = "ShuweiGan-Lab4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025AC671290DD2130092E366 /* ShuweiGan-Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShuweiGan-Lab4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025AC674290DD2130092E366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025AC676290DD2130092E366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		025AC678290DD2130092E366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025AC67B290DD2130092E366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025AC67E290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShuweiGan_Lab4.xcdatamodel; sourceTree = "<group>"; };
+		025AC680290DD2160092E366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025AC683290DD2160092E366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025AC685290DD2160092E366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025AC68A290DD2160092E366 /* ShuweiGan-Lab4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShuweiGan-Lab4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025AC68E290DD2160092E366 /* ShuweiGan_Lab4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuweiGan_Lab4Tests.swift; sourceTree = "<group>"; };
+		025AC694290DD2160092E366 /* ShuweiGan-Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShuweiGan-Lab4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025AC698290DD2160092E366 /* ShuweiGan_Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuweiGan_Lab4UITests.swift; sourceTree = "<group>"; };
+		025AC69A290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuweiGan_Lab4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025AC66E290DD2130092E366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC687290DD2160092E366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC691290DD2160092E366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025AC668290DD2130092E366 = {
+			isa = PBXGroup;
+			children = (
+				025AC673290DD2130092E366 /* ShuweiGan-Lab4 */,
+				025AC68D290DD2160092E366 /* ShuweiGan-Lab4Tests */,
+				025AC697290DD2160092E366 /* ShuweiGan-Lab4UITests */,
+				025AC672290DD2130092E366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025AC672290DD2130092E366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025AC671290DD2130092E366 /* ShuweiGan-Lab4.app */,
+				025AC68A290DD2160092E366 /* ShuweiGan-Lab4Tests.xctest */,
+				025AC694290DD2160092E366 /* ShuweiGan-Lab4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025AC673290DD2130092E366 /* ShuweiGan-Lab4 */ = {
+			isa = PBXGroup;
+			children = (
+				025AC674290DD2130092E366 /* AppDelegate.swift */,
+				025AC676290DD2130092E366 /* SceneDelegate.swift */,
+				025AC678290DD2130092E366 /* ViewController.swift */,
+				025AC67A290DD2130092E366 /* Main.storyboard */,
+				025AC680290DD2160092E366 /* Assets.xcassets */,
+				025AC682290DD2160092E366 /* LaunchScreen.storyboard */,
+				025AC685290DD2160092E366 /* Info.plist */,
+				025AC67D290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld */,
+			);
+			path = "ShuweiGan-Lab4";
+			sourceTree = "<group>";
+		};
+		025AC68D290DD2160092E366 /* ShuweiGan-Lab4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				025AC68E290DD2160092E366 /* ShuweiGan_Lab4Tests.swift */,
+			);
+			path = "ShuweiGan-Lab4Tests";
+			sourceTree = "<group>";
+		};
+		025AC697290DD2160092E366 /* ShuweiGan-Lab4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				025AC698290DD2160092E366 /* ShuweiGan_Lab4UITests.swift */,
+				025AC69A290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift */,
+			);
+			path = "ShuweiGan-Lab4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025AC670290DD2130092E366 /* ShuweiGan-Lab4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025AC69E290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4" */;
+			buildPhases = (
+				025AC66D290DD2130092E366 /* Sources */,
+				025AC66E290DD2130092E366 /* Frameworks */,
+				025AC66F290DD2130092E366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShuweiGan-Lab4";
+			productName = "ShuweiGan-Lab4";
+			productReference = 025AC671290DD2130092E366 /* ShuweiGan-Lab4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025AC689290DD2160092E366 /* ShuweiGan-Lab4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025AC6A1290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4Tests" */;
+			buildPhases = (
+				025AC686290DD2160092E366 /* Sources */,
+				025AC687290DD2160092E366 /* Frameworks */,
+				025AC688290DD2160092E366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025AC68C290DD2160092E366 /* PBXTargetDependency */,
+			);
+			name = "ShuweiGan-Lab4Tests";
+			productName = "ShuweiGan-Lab4Tests";
+			productReference = 025AC68A290DD2160092E366 /* ShuweiGan-Lab4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025AC693290DD2160092E366 /* ShuweiGan-Lab4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025AC6A4290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4UITests" */;
+			buildPhases = (
+				025AC690290DD2160092E366 /* Sources */,
+				025AC691290DD2160092E366 /* Frameworks */,
+				025AC692290DD2160092E366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025AC696290DD2160092E366 /* PBXTargetDependency */,
+			);
+			name = "ShuweiGan-Lab4UITests";
+			productName = "ShuweiGan-Lab4UITests";
+			productReference = 025AC694290DD2160092E366 /* ShuweiGan-Lab4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025AC669290DD2130092E366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					025AC670290DD2130092E366 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					025AC689290DD2160092E366 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 025AC670290DD2130092E366;
+					};
+					025AC693290DD2160092E366 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 025AC670290DD2130092E366;
+					};
+				};
+			};
+			buildConfigurationList = 025AC66C290DD2130092E366 /* Build configuration list for PBXProject "ShuweiGan-Lab4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025AC668290DD2130092E366;
+			productRefGroup = 025AC672290DD2130092E366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025AC670290DD2130092E366 /* ShuweiGan-Lab4 */,
+				025AC689290DD2160092E366 /* ShuweiGan-Lab4Tests */,
+				025AC693290DD2160092E366 /* ShuweiGan-Lab4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025AC66F290DD2130092E366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025AC684290DD2160092E366 /* LaunchScreen.storyboard in Resources */,
+				025AC681290DD2160092E366 /* Assets.xcassets in Resources */,
+				025AC67C290DD2130092E366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC688290DD2160092E366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC692290DD2160092E366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025AC66D290DD2130092E366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025AC67F290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld in Sources */,
+				025AC679290DD2130092E366 /* ViewController.swift in Sources */,
+				025AC675290DD2130092E366 /* AppDelegate.swift in Sources */,
+				025AC677290DD2130092E366 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC686290DD2160092E366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025AC68F290DD2160092E366 /* ShuweiGan_Lab4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025AC690290DD2160092E366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025AC699290DD2160092E366 /* ShuweiGan_Lab4UITests.swift in Sources */,
+				025AC69B290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025AC68C290DD2160092E366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025AC670290DD2130092E366 /* ShuweiGan-Lab4 */;
+			targetProxy = 025AC68B290DD2160092E366 /* PBXContainerItemProxy */;
+		};
+		025AC696290DD2160092E366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025AC670290DD2130092E366 /* ShuweiGan-Lab4 */;
+			targetProxy = 025AC695290DD2160092E366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025AC67A290DD2130092E366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025AC67B290DD2130092E366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025AC682290DD2160092E366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025AC683290DD2160092E366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025AC69C290DD2160092E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025AC69D290DD2160092E366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025AC69F290DD2160092E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShuweiGan-Lab4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025AC6A0290DD2160092E366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShuweiGan-Lab4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		025AC6A2290DD2160092E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuweiGan-Lab4.app/ShuweiGan-Lab4";
+			};
+			name = Debug;
+		};
+		025AC6A3290DD2160092E366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuweiGan-Lab4.app/ShuweiGan-Lab4";
+			};
+			name = Release;
+		};
+		025AC6A5290DD2160092E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShuweiGan-Lab4";
+			};
+			name = Debug;
+		};
+		025AC6A6290DD2160092E366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3T852AU7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE438.ShuweiGan-Lab4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShuweiGan-Lab4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025AC66C290DD2130092E366 /* Build configuration list for PBXProject "ShuweiGan-Lab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025AC69C290DD2160092E366 /* Debug */,
+				025AC69D290DD2160092E366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025AC69E290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025AC69F290DD2160092E366 /* Debug */,
+				025AC6A0290DD2160092E366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025AC6A1290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025AC6A2290DD2160092E366 /* Debug */,
+				025AC6A3290DD2160092E366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025AC6A4290DD2160092E366 /* Build configuration list for PBXNativeTarget "ShuweiGan-Lab4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025AC6A5290DD2160092E366 /* Debug */,
+				025AC6A6290DD2160092E366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		025AC67D290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				025AC67E290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodel */,
+			);
+			currentVersion = 025AC67E290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodel */;
+			path = ShuweiGan_Lab4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 025AC669290DD2130092E366 /* Project object */;
+}
