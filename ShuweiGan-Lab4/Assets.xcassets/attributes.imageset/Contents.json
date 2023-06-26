@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "icons8-the-movie-database-tmdb-a-popular,-user-editable-database-for-movies-and-tv-shows.-28.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

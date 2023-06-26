@@ -17,6 +17,14 @@
 		025AC68F290DD2160092E366 /* ShuweiGan_Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC68E290DD2160092E366 /* ShuweiGan_Lab4Tests.swift */; };
 		025AC699290DD2160092E366 /* ShuweiGan_Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC698290DD2160092E366 /* ShuweiGan_Lab4UITests.swift */; };
 		025AC69B290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC69A290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift */; };
+		025AC6A8290DEB4E0092E366 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC6A7290DEB4E0092E366 /* APIResults.swift */; };
+		025AC6AA290DEB870092E366 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC6A9290DEB870092E366 /* Movie.swift */; };
+		025AC6AC290E0E6A0092E366 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC6AB290E0E6A0092E366 /* MovieCell.swift */; };
+		025AC6B0290E62ED0092E366 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AC6AF290E62ED0092E366 /* DetailedViewController.swift */; };
+		02EC4182290F8807004A3940 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4181290F8807004A3940 /* FavoritesView.swift */; };
+		02EC4184290FBEB7004A3940 /* likedMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4183290FBEB7004A3940 /* likedMovieController.swift */; };
+		02EC418629108754004A3940 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC418529108754004A3940 /* Extension.swift */; };
+		02EC4188291087ED004A3940 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC4187291087EC004A3940 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		025AC694290DD2160092E366 /* ShuweiGan-Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShuweiGan-Lab4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		025AC698290DD2160092E366 /* ShuweiGan_Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuweiGan_Lab4UITests.swift; sourceTree = "<group>"; };
 		025AC69A290DD2160092E366 /* ShuweiGan_Lab4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuweiGan_Lab4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		025AC6A7290DEB4E0092E366 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
+		025AC6A9290DEB870092E366 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		025AC6AB290E0E6A0092E366 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		025AC6AF290E62ED0092E366 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		02EC4181290F8807004A3940 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		02EC4183290FBEB7004A3940 /* likedMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likedMovieController.swift; sourceTree = "<group>"; };
+		02EC418529108754004A3940 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		02EC4187291087EC004A3940 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,14 @@
 				025AC682290DD2160092E366 /* LaunchScreen.storyboard */,
 				025AC685290DD2160092E366 /* Info.plist */,
 				025AC67D290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld */,
+				025AC6A7290DEB4E0092E366 /* APIResults.swift */,
+				025AC6A9290DEB870092E366 /* Movie.swift */,
+				025AC6AB290E0E6A0092E366 /* MovieCell.swift */,
+				025AC6AF290E62ED0092E366 /* DetailedViewController.swift */,
+				02EC4181290F8807004A3940 /* FavoritesView.swift */,
+				02EC4183290FBEB7004A3940 /* likedMovieController.swift */,
+				02EC4187291087EC004A3940 /* ImageSaver.swift */,
+				02EC418529108754004A3940 /* Extension.swift */,
 			);
 			path = "ShuweiGan-Lab4";
 			sourceTree = "<group>";
@@ -261,10 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025AC6AC290E0E6A0092E366 /* MovieCell.swift in Sources */,
 				025AC67F290DD2130092E366 /* ShuweiGan_Lab4.xcdatamodeld in Sources */,
+				025AC6B0290E62ED0092E366 /* DetailedViewController.swift in Sources */,
 				025AC679290DD2130092E366 /* ViewController.swift in Sources */,
+				02EC418629108754004A3940 /* Extension.swift in Sources */,
+				025AC6AA290DEB870092E366 /* Movie.swift in Sources */,
 				025AC675290DD2130092E366 /* AppDelegate.swift in Sources */,
+				02EC4188291087ED004A3940 /* ImageSaver.swift in Sources */,
 				025AC677290DD2130092E366 /* SceneDelegate.swift in Sources */,
+				025AC6A8290DEB4E0092E366 /* APIResults.swift in Sources */,
+				02EC4184290FBEB7004A3940 /* likedMovieController.swift in Sources */,
+				02EC4182290F8807004A3940 /* FavoritesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +476,7 @@
 				DEVELOPMENT_TEAM = W3T852AU7J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ShuweiGan-Lab4/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your favorite movie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +505,7 @@
 				DEVELOPMENT_TEAM = W3T852AU7J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ShuweiGan-Lab4/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your favorite movie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
